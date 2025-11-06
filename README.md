@@ -135,12 +135,9 @@ and a deterministic random seed so the result is repeatable.
 
 ## Troubleshooting
 
-- Ensure the input file is a PCM ``.wav``.  Compressed formats such as
+- Ensure the input file is a ``.wav``.  Compressed formats such as
   MP3 are not directly supported.
 - Very long files can take a few seconds to analyse because the Fourier
   transform scales with window count.  Lower the ``--grid`` values or use
   a shorter excerpt for faster iteration.
 
-## License
-
-MIT License.  See [LICENSE](LICENSE) if present in the repository.
