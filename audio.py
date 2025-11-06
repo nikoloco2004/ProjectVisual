@@ -3,7 +3,7 @@
 This module focuses on extracting a few intuitive descriptors from a
 ``.wav`` file that later drive the visual flow field.  The processing is
 intentionally lightweight and heavily documented so that the math behind
-the metrics stays approachable to newcomers.
+the metrics stays easy to follow.
 """
 
 from __future__ import annotations
